@@ -146,3 +146,6 @@ layers:
   - Z
   - X
   - $$mdi:apple-keyboard-control$$
+combos:
+- p: [5, 18]
+  k: T

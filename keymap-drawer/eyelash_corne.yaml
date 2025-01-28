@@ -60,7 +60,7 @@ layers:
   - F6
   - F7
   - F8
-  - KP PLUS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   - LEFT WIN
   - {t: '5', s: '%'}
@@ -75,19 +75,19 @@ layers:
   - F10
   - F11
   - F12
-  - KP MINUS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG UP
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
   - +
-  - KP MINUS
-  - KP EQUAL
+  - {t: ',', s: <}
+  - .
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN

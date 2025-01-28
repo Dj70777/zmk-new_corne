@@ -45,6 +45,15 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Tkey {
+            bindings = <&kp T>;
+            key-positions = <5 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

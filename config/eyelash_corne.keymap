@@ -63,10 +63,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans          &kp F1  &kp F2        &kp F3        &kp F4        &mo 1                                        &kp UP_ARROW                     &kp F5           &kp F6           &kp F7           &kp F8           &kp KP_PLUS   &kp BSPC
-&kp LEFT_WIN    &kp N5  &kp NUMBER_6  &kp N7        &kp N8        &kp N9                       &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp F9           &kp F10          &kp F11          &kp F12          &kp KP_MINUS  &kp PG_UP
-&kp LEFT_SHIFT  &kp N0  &kp PLUS      &kp KP_MINUS  &kp KP_EQUAL  &kp BACKSPACE  &kp C_MUTE                    &kp DOWN_ARROW                   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RIGHT_SHIFT  &none         &kp PG_DN
-                                      &kp LEFT_ALT  &kp SPACE     &kp LCTRL                                                                     &kp Z            &kp X            &kp RCTRL
+&trans          &kp F1  &kp F2        &kp F3        &kp F4      &mo 1                                        &kp UP_ARROW                     &kp F5  &kp F6   &kp F7     &kp F8           &none  &kp BSPC
+&kp LEFT_WIN    &kp N5  &kp NUMBER_6  &kp N7        &kp N8      &kp N9                       &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp F9  &kp F10  &kp F11    &kp F12          &none  &kp PG_UP
+&kp LEFT_SHIFT  &kp N0  &kp PLUS      &kp COMMA     &kp PERIOD  &kp BACKSPACE  &kp C_MUTE                    &kp DOWN_ARROW                   &none   &none    &none      &kp RIGHT_SHIFT  &none  &kp PG_DN
+                                      &kp LEFT_ALT  &kp SPACE   &kp LCTRL                                                                     &kp Z   &kp X    &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;

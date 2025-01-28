@@ -49,7 +49,7 @@ layers:
   - V
   - $$mdi:apple-keyboard-control$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LEFT WIN
   - F1
   - F2
   - F3
